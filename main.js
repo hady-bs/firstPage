@@ -10,7 +10,7 @@ cards.forEach((it) => {
 
 let t = false;
 window.onscroll = () => {
-  if (window.scrollY >= skills.offsetTop - 250) {
+  if (window.scrollY >= skills.offsetTop - 520) {
     spans.forEach((li) => {
       li.style.width = li.getAttribute("data-range");
     });
